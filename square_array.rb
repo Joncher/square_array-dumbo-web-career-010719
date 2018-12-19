@@ -1,9 +1,9 @@
 
 def square_array(numbers)
-  nums = []
+ my_array = Array.new
   numbers.each  do | x | 
-    nums = [x*x]
-    binding.pry
+    my_array = [x*x]
+  
 end
 end
 
