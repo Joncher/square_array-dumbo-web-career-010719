@@ -1,7 +1,8 @@
 
 def square_array(numbers)
   numbers.each  do | x | 
-    return x*x
+    array = Array.new
+    array = x*expire_cache_for
 end
 end
 
