@@ -1,5 +1,9 @@
+
 def square_array(numbers)
-  numbers.each  do | x | puts x*x
+  nums = []
+  numbers.each  do | x | 
+    nums = [x*x]
+    binding.pry
 end
 end
 
